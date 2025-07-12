@@ -47,6 +47,8 @@ return {
         maps.t["<Leader>t3"] = { "<Cmd>3ToggleTerm direction=float<CR>", desc = "ToggleTerm float" }
         maps.n["<Leader>t4"] = { "<Cmd>4ToggleTerm direction=float<CR>", desc = "ToggleTerm float" }
         maps.t["<Leader>t4"] = { "<Cmd>4ToggleTerm direction=float<CR>", desc = "ToggleTerm float" }
+        maps.n["<C-n>"] = { "<Cmd>5ToggleTerm direction=float<CR>", desc = "ToggleTerm float" }
+        maps.t["<C-n>"] = { "<Cmd>5ToggleTerm direction=float<CR>", desc = "ToggleTerm float" }
       end,
     },
     {
