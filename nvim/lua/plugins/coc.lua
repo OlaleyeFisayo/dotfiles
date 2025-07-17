@@ -34,6 +34,17 @@ return {
       opts.options.g.coc_global_extensions = {
         "coc-json",
         "coc-marketplace",
+        "coc-html",
+        "coc-css",
+        "coc-stylua",
+        "coc-snippets",
+        "coc-git",
+        "coc-smart-case",
+        "coc-pairs",
+        "coc-eslint",
+        "coc-tsserver",
+        "@yaegassy/coc-tailwindcss3",
+        "@yaegassy/coc-volar",
       }
 
       if not opts.commands then opts.commands = {} end
