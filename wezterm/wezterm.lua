@@ -6,8 +6,8 @@ if wezterm.config_builder then
 end
 
 -- WSL Configuration
-config.default_domain = "WSL:Ubuntu"  -- Change "Ubuntu" to your WSL distribution name
-config.default_cwd = "~"  -- Start in home directory-- WSL Configuration
+config.default_domain = "WSL:Ubuntu"
+config.default_cwd = "~"
 
 -- Appearances
 config.window_decorations = "RESIZE"
