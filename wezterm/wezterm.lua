@@ -5,6 +5,10 @@ if wezterm.config_builder then
   config = wezterm.config_builder()
 end
 
+-- WSL Configuration
+config.default_domain = "WSL:Ubuntu"  -- Change "Ubuntu" to your WSL distribution name
+config.default_cwd = "~"  -- Start in home directory-- WSL Configuration
+
 -- Appearances
 config.window_decorations = "RESIZE"
 config.hide_tab_bar_if_only_one_tab = true
