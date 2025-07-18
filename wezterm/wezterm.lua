@@ -9,12 +9,6 @@ end
 config.default_domain = "WSL:Ubuntu"
 config.default_cwd = "~"
 
--- Copy and paste to system Clipboard
-config.clipboard = {
-  copy_to = "Clipboard",
-  paste_from = "Clipboard",
-}
-
 -- Appearances
 config.window_decorations = "RESIZE"
 config.hide_tab_bar_if_only_one_tab = true
