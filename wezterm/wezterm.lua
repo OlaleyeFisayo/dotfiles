@@ -8,6 +8,8 @@ end
 -- WSL Configuration
 config.default_domain = "WSL:Ubuntu"
 config.default_cwd = "~"
+config.enable_wayland = false
+config.enable_clipboard_access = true
 
 -- Copy and paste to system Clipboard
 config.clipboard = {
